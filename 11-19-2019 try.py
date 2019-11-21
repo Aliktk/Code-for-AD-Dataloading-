@@ -88,6 +88,11 @@ seg_dir = 'C:/Users/Ali ktk/.spyder-py3/dataloader/data/test/1'
 ##return shapes, relative_volumes
 
 
+'''
+#can't understanf whatgoing on in the full_dataset variable that why it should't taking 4 argument. if I remvoe the last few line of 
+code than it give me nothing as an output. What I do sir please help and make some changes if possible also comment for further information'''
+
+
 class Dataloder_img(data.Dataset):
     def __init__(self,root_dir,seg_dir,transforms ):
         self.root_dir = root_dir
